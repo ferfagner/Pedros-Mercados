@@ -55,7 +55,7 @@ body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
     <h1><b>Usuario Não Logado Tente Novamente!</b></h1>
 	<div class="container">
  
-  <form action="loguin">
+  <form action="login">
     <div class="form-group">
       <label for="name">Usuario:</label>
       <input type="text" class="form-control" id="nome1" placeholder="Coloque seu Usuario!" name="usuario">

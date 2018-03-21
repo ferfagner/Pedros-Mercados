@@ -67,7 +67,7 @@ public class Servletloguin extends HttpServlet {
 			//execultando sql
 			ResultSet rs = ps.executeQuery();
 			if (rs.first()) {
-				response.sendRedirect("Produtosmercado");
+				response.sendRedirect("logado.jsp");
 			} else {
 				response.sendRedirect("NewFile.jsp");
 			}
